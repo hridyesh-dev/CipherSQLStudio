@@ -35,12 +35,19 @@ src/
 │
 ├── components/
 ├── pages/
-├── services/
+    will contain AssignmentAttempt and AssignmentList Page
+├── services/backend
+    will have the api service for 
 ├── styles/
+  
 │ ├── base/
-│ ├── components/
+│     Base styling
+├── components/
+    all the components is defined here
 │ └── main.scss
+      global styling of the app is here
 ├── App.jsx
+    main app.jsx where all components will come here
 └── main.jsx
 
 ## Environment Variables
