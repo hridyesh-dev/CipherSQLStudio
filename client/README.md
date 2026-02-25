@@ -34,20 +34,27 @@ The UI is built with React and styled using modular SCSS with a mobile-first res
 src/
 │
 ├── components/
+
 ├── pages/
     will contain AssignmentAttempt and AssignmentList Page
+
 ├── services/backend
     will have the api service for 
+
 ├── styles/
   
 │ ├── base/
 │     Base styling
+
 ├── components/
     all the components is defined here
+
 │ └── main.scss
       global styling of the app is here
+
 ├── App.jsx
     main app.jsx where all components will come here
+
 └── main.jsx
 
 ## Environment Variables
