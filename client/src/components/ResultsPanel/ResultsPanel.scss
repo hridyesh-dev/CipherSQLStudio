@@ -1,0 +1,26 @@
+.results {
+  background: #ffffff;
+  padding: 1rem;
+  border-radius: 8px;
+  overflow-x: auto;
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+
+    th,
+    td {
+      border: 1px solid #000000;
+      padding: 0.5rem;
+      text-align: left;
+    }
+
+    th {
+      background: #ffffff;
+    }
+  }
+}
+
+.error {
+  color: red;
+}

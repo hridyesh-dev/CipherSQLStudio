@@ -1,0 +1,76 @@
+.attempt {
+  padding: 1.5rem;
+
+  &__back {
+    margin-bottom: 1rem;
+    background: none;
+    border: 1px solid black;
+    border-radius: 2px;
+    color: #000000;
+    cursor: pointer;
+    font-size: 0.9rem;
+
+    &:hover {
+      border: 3px solid black;
+      transition: ease-in-out;
+    }
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  &__left,
+  &__right {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  &__actions {
+    display: flex;
+    gap: 1rem;
+
+    button {
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      background: #ffffff;
+      color: rgb(0, 0, 0);
+      border: 2px solid black;
+
+      &:hover {
+        background: #26a131;
+      }
+    }
+  }
+
+  &__hint {
+    background: #ffffff;
+    padding: 1rem;
+    color: #000000;
+    border: solid black 3px;
+    border-radius: 8px;
+  }
+}
+
+/* Desktop Layout */
+@media (min-width: 1024px) {
+  .attempt {
+    &__container {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+
+    &__left {
+      flex: 1;
+    }
+
+    &__right {
+      flex: 2;
+    }
+  }
+}

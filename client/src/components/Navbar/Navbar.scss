@@ -1,0 +1,24 @@
+.navbar {
+  background: #ffffff;
+  padding: 0.8rem 1rem;
+  border-bottom: 5px solid #000000;
+
+  &__container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  &__logo {
+    height: 40px;
+  }
+
+  &__brand {
+    color: black;
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+}

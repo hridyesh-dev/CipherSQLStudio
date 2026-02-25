@@ -1,0 +1,44 @@
+.assignment-card {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 3px solid black;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  transition: 0.2s;
+
+  &:hover {
+    border: 5px solid black;
+    box-shadow: black;
+  }
+
+  span {
+    font-size: 0.8rem;
+  }
+
+    /* Difficulty Colors */
+  &__difficulty--easy {
+    background: #1bde62;
+    padding: 2px 10px;
+    color: #000;
+    border-radius: 10%;
+    border: 2px solid black;
+    
+  }
+
+  &__difficulty--medium {
+    background: #f59e0b;
+    padding: 2px 10px;
+    color: #000;
+    border-radius: 10%;
+    border: 2px solid black;
+  }
+
+  &__difficulty--hard {
+    background: #dc2626;
+        padding: 2px 10px;
+    color: #000;
+    border-radius: 10%;
+    border: 2px solid black;
+  }
+}
