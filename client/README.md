@@ -30,16 +30,26 @@ The UI is built with React and styled using modular SCSS with a mobile-first res
 ---
 
 ## Folder Structure
+
 src/
 │
+
 ├── components/
+
 ├── pages/
+
 ├── services/
+
 ├── styles/
+
 │ ├── base/
+
 │ ├── components/
+
 │ └── main.scss
+
 ├── App.jsx
+
 └── main.jsx
 
 ## Environment Variables
