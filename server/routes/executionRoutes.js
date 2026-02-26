@@ -12,14 +12,7 @@ router.post("/", async (req, res) => {
 
   const lower = query.toLowerCase().trim();
 
-  const forbidden = [
-    "drop",
-    "delete",
-    "update",
-    "insert",
-    "alter",
-    "truncate",
-  ];
+  const forbidden = ["drop","delete","update","insert","alter","truncate",];
 
   if (!lower.startsWith("select")) {
     return res.status(400).json({
